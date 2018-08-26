@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="http://pngimg.com/uploads/padlock/padlock_PNG9418.png" alt="closed padlock" id="header-img">
+      <span id="logo-text">Secure Lock</span>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="landing-section">
+    <div id="landing-text">
+      <h1>Secure Lock</h1>
+      <p>The best lock to keep your stuff safe</p>
+    </div>
+  </section>
+  
+  <section id="features">
+    <div id="info">
+      <div class="features-row">
+        <span class="fas fa-lock"></span>
+        <h2>Unbreakable Alloy<sup>TM</sup></h2>
+        <p>The Unbreakable Alloy<sup>TM</sup> lock mechanism ensures your items are kept safe</p>
+      </div>
+      
+      <div class="features-row">
+        <span class="fas fa-key"></span>
+        <h2>Key Customisation</h2>
+        <p>We offer specialised keys that can be fully customised to fit your needs</p>
+      </div>
+      
+      <div class="features-row">
+        <span class="fas fa-phone"></span>
+        <h2>Customer Service</h2>
+        <p>Customer satisfaction is important to us. That's why we offer 24/7
+         support for any questions or problems</p>
+      </div>
+        
+      <div class="features-row">
+        <span class="fas fa-truck"></span>
+        <h2>Free Delivery</h2>
+        <p>We provide secure, trackable and free delivery worldwide 
+         for any items purchased</p>
+      </div>
+    </div>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/x_s2cSuKXkM" frameborder="0" allowfullscreen></iframe>
+  </section>
+  
+  <section id="pricing">
+    <div class="products">
+      <h3>X100 Lock</h3>
+      <p class="cost">£20</p>
+      <p>Unbreakable Alloy<sup>TM</sup></p>
+      <p><del>Customised Keys</del></p>
+      <p class="price-padding"><del>Next Day Delivery</del></p>
+      <button>Select</button>
+    </div>
+    <div class="products">
+      <h3>X200 Lock</h3>
+      <p class="cost">£30</p>
+      <p>Unbreakable Alloy<sup>TM</sup></p>
+      <p>Customised Keys</p>
+      <p class="price-padding"><del>Next Day Delivery</del></p>
+      <button>Select</button>
+    </div>
+    <div class="products">
+      <h3>X300 Lock</h3>
+      <p class="cost">£40</p>
+      <p>Unbreakable Alloy<sup>TM</sup></p>
+      <p>Customised Keys</p>
+      <p class="price-padding">Next Day Delivery</p>
+      <button>Select</button>
+    </div>
+  </section>
+    
+  <section id="contact">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label for="name" class="name-label">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" maxlength="50" class="name-input">
+      <label for="email" class="email-label">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" class="email-input">
+      <label for="comment" class="comment-label">Comment:</label>
+      <textarea id="comment" name="comment" placeholder="Add your comments here" class="comment-input"></textarea>
+      <input type="submit" id="submit" class="submit-btn">
+    </form>
+  </section>
+  
+  <footer>Created by Ebrahem</footer>
+</body>
+</html>
